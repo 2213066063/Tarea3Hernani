@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Higiene y salud</title>
+    <style>
+        /* Estilos CSS para personalizar tu página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+        }
+        section {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Higiene y salud</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">https://www.3tres3.com/articulos/como-lavarse-las-manos_30894/</a></li>
+            <li><a href="#">Enlace 2</a></li>
+            <li><a href="#">Enlace 3</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Sección 1</h2>
+        <p>Recuerda mantener una distancia mínima de seguridad de al menos 1 metro entre personas para prevenir la propagación de enfermedades contagiosas.</p>
+        <button onclick="mostrarAlerta()">Mostrar alerta</button>
+    </section>
+
+    <section>
+        <h2>Sección 2</h2>
+        <p>Lava tus manos con agua y jabón durante al menos 20 segundos con frecuencia, especialmente después de estar en lugares públicos o tocar superficies comunes.</p>
+        <input type="text" placeholder="Escribe algo" onkeyup="mostrarTexto(this.value)">
+        <p id="textoIngresado"></p>
+    </section>
+
+    <footer>
+        <p>Pie de página - Todos los derechos reservados &copy; 2023</p>
+    </footer>
+
+    <script>
+        // Funciones JavaScript personalizadas
+        function mostrarAlerta() {
+            alert('¡Has hecho clic en el botón!');
+        }
+
+        function mostrarTexto(texto) {
+            document.getElementById('textoIngresado').innerText = texto;
+        }
+    </script>
+</body>
+</html>
